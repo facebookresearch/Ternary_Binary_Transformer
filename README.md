@@ -6,16 +6,22 @@ This repository contains the training code of TBT introduced in our work: "[Bina
 We approach the problem with a mix of statistics-based quantization for the weights and elastic quantization of the activations and demonstrate the first ternary and binary transformer models on the downstream tasks of summarization and machine translation. 
 
 <div align=center>
-<img width=60% src="https://github.com/facebookresearch/Ternary_Binary_Transformer/blob/main/overview.png"/>
+<img width=60% src="https://github.com/facebookresearch/Ternary_Binary_Transformer/blob/master/overview.png"/>
 </div>
 
 
 ## Citation
 
 If you find our code useful for your research, please consider citing:
-    
 
-Our previous papers related to binarizing transformer model:
+    @article{liu2023binary,
+    title={Binary and Ternary Natural Language Generation},
+    author={Liu, Zechun and Oguz, Barlas and Pappu, Aasish and Shi, Yangyang and Krishnamoorthi, Raghuraman},
+    booktitle={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics}
+    year={2023}
+    }
+
+Our previous papers related to binarizing BERT model:
 * BiT: Robustly Binarized Multi-distilled Transformer (NeurIPS 2022) \[[code](https://github.com/facebookresearch/bit)\] \[[paper](https://arxiv.org/pdf/2205.13016.pdf)\]
 
 ## Run
