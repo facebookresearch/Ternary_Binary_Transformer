@@ -1,12 +1,12 @@
 # Ternary_Binary_Transformer
 
 
-This repository contains the training code of TBT introduced in our work: "[Binary and Ternary Natural Language Generation]()", published in ACL 2023.
+This repository contains the training code of TBT introduced in our work: "[Binary and Ternary Natural Language Generation](https://arxiv.org/abs/2306.01841)", published in ACL 2023.
 
 We approach the problem with a mix of statistics-based quantization for the weights and elastic quantization of the activations and demonstrate the first ternary and binary transformer models on the downstream tasks of summarization and machine translation. 
 
 <div align=center>
-<img width=60% src="https://github.com/facebookresearch/Ternary_Binary_Transformer/blob/master/overview.png"/>
+<img width=60% src="https://github.com/facebookresearch/Ternary_Binary_Transformer/blob/main/overview.png"/>
 </div>
 
 
